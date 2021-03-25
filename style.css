@@ -1,0 +1,167 @@
+/* ヘッダー */
+header{
+    background-image: url("./img/bgimg.jpg");
+    height: 65px;
+    width: -webkit-fill-available;
+    display: flex;
+    align-items: center;
+    /* ヘッダー固定 */
+    position: fixed;
+}
+
+a{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 21px;
+    margin-left: 10px;
+}
+
+a:hover{
+    background-color: rgba(174, 225, 235, 0.925);
+}
+/* ここまでヘッダー */
+
+
+/*  入力画面 */
+body{
+    margin: 0;   
+}
+
+.byshop{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    padding-top: 80px;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: tan;
+}
+
+.byshop div{
+    text-align: center;
+    width: 1000px;
+    margin: 20px 0 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.product{
+    width: 30%;
+}
+
+.img{
+    text-align: center;
+}
+
+.p_image{
+    width: 290px;
+    height: 290px;
+    margin: 50px auto 0;
+}
+
+.info{
+    text-align: center;
+}
+
+.frm{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    border: #ccd6d6 solid 2px;
+    border-radius: 5px;
+    width: 55%;
+    margin: 45px;
+    /*グラデーション*/
+	background: linear-gradient(#fbfcfc, #f0f8f1); 
+}
+
+.frm div{
+    text-align: center;
+    padding: 20px;
+    margin: auto 50px;
+    border-top: solid 2px #dcf5eb;
+}
+
+.frm div:first-child{
+    border-top: none;
+}
+
+.hw{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* 項目名 */
+.frm div label,div p{
+    font-size: 17px;
+    font-weight: bold;
+    margin-right: 20px;
+    color: rgb(99, 87, 74);
+}
+ 
+
+.frm input[type="text"]{
+    width:45%;
+	padding:5px;
+	margin:0;
+    font-size: 15px;
+	color:#666;
+	border:solid 1px #ccc;
+	background: #fff;
+	border-radius:7px;
+}
+
+.hw select,textarea{
+	padding:5px;
+	margin:0;
+    font-size: 15px;
+	color:#666;
+	border:solid 1px #ccc;
+	background: #fff;
+	border-radius:7px;
+}
+
+input[type="submit"],input[type="reset"] {
+	cursor:pointer;
+	font-size:130%;
+	font-weight:bold;
+	padding:4px 10px;
+	margin-right:10px;
+	color:#fff;
+    border:1px solid #bbb;
+    background: #8bbbc0;
+	border-radius: 5px;
+	
+}
+
+input[type="submit"]:hover,input[type="reset"]:hover{
+    background-color: cadetblue;
+}
+/* ここまで入力画面 */
+
+
+
+/* データベース表示画面 */
+
+.reviews{
+    padding-top: 100px;
+}
+
+.review{
+    border: solid 2px rgb(212, 208, 203);
+    border-radius: 8px;
+    width: 60%;
+    margin: 0 auto 30px;
+    padding: 10px;
+    font-family: 'Sawarabi Gothic', sans-serif;
+    /*グラデーション*/
+    background: linear-gradient(#fbfcfc, #e9f3db); 
+}
+
+.comment{
+    margin: 10px;
+    text-align: center;
+}
+.date{
+    text-align: right;
+}
+/* ここまでデータベース表示画面 */
